@@ -102,7 +102,7 @@ public:
   T const *get() const noexcept { return ptr().get(); }
 
   Cloner &get_cloner() noexcept { return ptr_; }
-  Cloner const &get_cloner() const noexcept { return ptr_; };
+  Cloner const &get_cloner() const noexcept { return ptr_; }
 
   Deleter &get_deleter() noexcept { return ptr_; }
   Deleter const &get_deleter() const noexcept { return ptr_; }
